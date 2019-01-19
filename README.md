@@ -14,7 +14,7 @@ The projects have been built through the following steps:
 * Create HelloController in the server1 app:
   - cd ../server1
   - mn create-controller hello-controller
-* Create HelloController in the server2 app:
+* Create HelloClientController in the server2 app:
   - cd ../server2
   - mn create-controller hello-controller
 * Start all the applications with the command:
