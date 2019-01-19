@@ -1,6 +1,6 @@
 # micronaut-service-discovery-example
 The projects have been built through the following steps:
-- Create directory micronaut-service-discovery-example
+- Create directory micronaut-service-discovery-example:
   mkdir micronaut-service-discovery-example
 - Create 3 apps under micronaut-service-discovery-example, one client and two servers:
   cd micronaut-service-discovery-example
