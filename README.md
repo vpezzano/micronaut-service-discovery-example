@@ -7,14 +7,16 @@ The projects have been built through the following steps:
   - mn create-app com.techprimers.micronaut.client
   - mn create-app com.techprimers.micronaut.server1
   - mn create-app com.techprimers.micronaut.server2
-* Create 2 clients in the client app, one is a client of server1, and the other is a client of server2:
+* Create 2 clients in the client app, one is a client of server1, and the other is a client of server2,
+  and also create a client hello-client-controller:
   - cd client 
   - mn create-client server1-client
   - mn create-client server2-client
+  - mn create-controller hello-client-controller
 * Create HelloController in the server1 app:
   - cd ../server1
   - mn create-controller hello-controller
-* Create HelloClientController in the server2 app:
+* Create HelloController in the server2 app:
   - cd ../server2
   - mn create-controller hello-controller
 * Start all the applications with the command:
